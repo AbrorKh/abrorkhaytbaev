@@ -26,6 +26,11 @@
 <!-- START NAV -->
 
 <nav id="navbar" class="nav">
+  <a class="navbar-brand" href="/">
+      <div class="logo-image">
+            <img src="images/logo.jpg" class="img-fluid">
+      </div>
+</a>
   <ul class="nav-list">
     <li>
       <a href="#welcome-section">About</a>
@@ -44,8 +49,12 @@
 <!-- START WELCOME SECTION -->
 
 <section id="welcome-section" class="welcome-section">
-  <h1>Abror Khaytbaev</h1>
-  <p>Student at University of South Florida</p>
+  <h1 >Abror Khaytbaev</h1>
+  <!-- <h2>Student at University of South Florida</h2> -->
+  <div id="avatar">
+    <!-- <img class="circle" src="profile.jpg" alt="Profile pic"> -->
+  </div>
+  <div><p>Hello! My name is Abror Khaytbaev. I am a sophomore at University of South Florida majoring in Computer Science. This is my static HTML/CSS website.</p></div>
 </section>
 
 <!-- END WELCOME SECTION -->
@@ -53,32 +62,72 @@
 <!-- START PROJECTS SECTION -->
 
 <section id="projects" class="projects-section">
-  <h2 class="projects-section-header">These are my Web projects</h2>
-
+  <h2 class="projects-section-header">My projects: </h2>
+  <div class="body">
+      <h2>Projects in Python</h2>
+  </div>
   <div class="projects-grid">
-    <a
-      href="https://codepen.io/abror-haytboyev/full/bGNwgdE"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image" src="https://raw.githubusercontent.com/AbrorKh/abrorkhaytbaev/master/Capture.PNG"
-        alt="project screenshot"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Tribute Page
-        <span class="code">&#47;&gt;</span>
-      </p>
-      </a>
-    <p class="project-title">
-  <br/><br/><br/><br/><br/>You can check out some others on my <a 
-    href="https://codepen.io/abror-haytboyev"
-    target="_blank"
-    >CodePen profile</a>.
-      </p>
+      <!-- Motion detector -->
+      <a
+        href="https://github.com/AbrorKh/motion_detector"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image" src="images/motion.png"
+          alt="project screenshot"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Motion Detector
+          <span class="code">&#47;&gt;</span>
+        </p>
+        </a>
+        <!-- Website blocker -->
+        <a
+          href="https://github.com/AbrorKh/WebLocker-application"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image" src="images/lock.gif"
+            alt="project screenshot"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Website blocker
+            <span class="code">&#47;&gt;</span>
+          </p>
+          </a>
+
+          <!-- Interactive dictionary -->
+          <a
+            href="https://github.com/AbrorKh/interactivedictionary"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image" src="images/data_dictionary.jpg"
+              alt="project screenshot"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              Interactive dictionary
+              <span class="code">&#47;&gt;</span>
+            </p>
+            </a>
+
     </div>
-      
+    <div class="body">
+        <h2>Web projects</h2>
+    </div>
+      <p class="project-title">
+    <br/><br/><br/><br/><br/>You can check out some of my HTML/CSS projects on my <a
+     href="https://codepen.io/abror-haytboyev"
+     target="_blank"
+     >CodePen profile</a>.
+       </p>
+
 </section>
 
 <!-- END PROJECTS SECTION -->
@@ -87,7 +136,7 @@
 
 <section id="contact" class="contact-section">
   <div class="contact-section-header">
-    <h2>Let's work together...</h2>
+    <h2>Contact me</h2>
     <p>You can find me through links below:</p>
   </div>
   <div class="contact-links">
@@ -107,7 +156,7 @@
       class="btn contact-details"
       ><i class="fab fa-facebook-square"></i> Facebook</a
     >
-    
+
     <a
       href="https://twitter.com/AbrorKhaytbaev"
       target="_blank"
@@ -115,7 +164,7 @@
       ><i class="fab fa-twitter"></i> Twitter</a
     >
     <a href="mailto:akhaytbaev@mail.usf.edu" class="btn contact-details"
-      ><i class="fas fa-at"></i> Send a mail</a
+      ><i class="fas fa-at"></i> Send an email</a
     >
   </div>
 </section>
@@ -132,6 +181,6 @@
 
 <!-- END FOOTER SECTION -->
 <!-- partial -->
-  
+
 </body>
 </html>
